@@ -1,0 +1,21 @@
+
+.header{
+  background-color: $light-color;
+  width: 100%;
+  position: relative;
+}
+
+.header-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid $border-color;
+}
+
+.brand-link{
+  width: 80px;
+}
+
+.brand{
+  max-width: 100%;
+}

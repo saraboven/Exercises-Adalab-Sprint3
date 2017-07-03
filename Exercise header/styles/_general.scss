@@ -1,0 +1,37 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  color: $font-color;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+h1{
+  text-align: center;
+  color: $font-color-title;
+  animation: animationTitle 5s ;
+}
+
+@keyframes animationTitle {
+  0% {
+    opacity: 0;
+  }
+}
+
+p{
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15%;
+}
+
+
+@media (min-width: $max-screen-size-tablet) {
+
+  p{
+    margin-top: 5%;
+  }
+}
